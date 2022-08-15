@@ -8,7 +8,7 @@ const CardResidents = ({ url }) => {
     <div>
       <div className='card-icon'>
       <header>
-        <img src={card?.image} alt="card?.image" />
+        <img src={card?.image} alt="card?.image" className='card-image'/>
         <div className='circle'>
           <p className='status'>{card?.status == 'Alive' ? `🟢 ${card?.status} `: 
           `🔴 ${card?.status}`}</p>
